@@ -1,1 +1,13 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuStandard"
+          android:title="@string/standard_mode" />
+    <item android:id="@+id/menuMouse"
+          android:title="@string/mouse_mode" />
+    <item android:id="@+id/menuMouseWheel"
+          android:title="@string/mouse_wheel_mode" />
+    <item android:id="@+id/menuSendText"
+          android:title="@string/send_text" />
+    <item android:id="@+id/menuMapKeys"
+          android:title="@string/map_keys" />
+</menu>
