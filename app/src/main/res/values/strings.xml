@@ -1,1 +1,11 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wave\'n\'Click</string>
+    <string name="left_mouse_button">Left Mouse Button</string>
+    <string name="right_mouse_button">Right Mouse Button</string>
+    <string name="standard_mode">Standard mode</string>
+    <string name="mouse_mode">Mouse mode</string>
+    <string name="mouse_wheel_mode">Mouse wheel mode</string>
+    <string name="send_text">Send text</string>
+    <string name="map_keys">Map keys</string>
+</resources>
