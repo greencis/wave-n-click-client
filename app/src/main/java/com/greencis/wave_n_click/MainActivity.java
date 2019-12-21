@@ -456,7 +456,7 @@ public class MainActivity extends Activity implements SensorEventListener {
                 btCommand += screenHeight + BT_DELIM_DATA; /*  8 */
                 btCommand += mouseButtonsPressed + BT_DELIM_DATA; /*  9 */
                 btCommand += t_scale + BT_DELIM_DATA; /* 10 */
-                btCommand += layoutSelected + BT_DELIM_DATA; /* 11 */
+                btCommand += layoutSelected.ordinal() + BT_DELIM_DATA; /* 11 */
                 btCommand += btAdapter.getAddress() + BT_DELIM_DATA; /* 12 */
                 btCommand += allSensors + BT_DELIM_DATA; /* 13 */
                 btCommand += "\n";
